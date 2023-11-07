@@ -29,8 +29,8 @@ $stdout = run(
     $command,
 
     // Optional
-    arguments : $arguments,
-    wd        : $wd,
-    env       : $env,
+    $arguments,
+    $env,
+    $wd,
 );
 ```
