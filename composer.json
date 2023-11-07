@@ -1,0 +1,21 @@
+{
+    "name": "laizware/quickshell",
+    "description": "Quick wrapper for shell_exec to execute or run external commands from PHP that allows setting the working directory, environment variables and return the standard output.",
+    "homepage": "https://github.com/laizware/quickshell",
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Camilo Caparrós Laiz",
+            "role": "Developer",
+            "email": "camilocseng@gmail.com",
+            "homepage": "https://github.com/laizware"
+        }
+    ],
+    "keywords": ["shell", "commands", "wrapper", "run", "running", "execute", "execution"],
+    "require": {
+        "php": ">=5"
+    },
+    "autoload": {
+        "files": ["Quickshell.php"]
+    }
+}
